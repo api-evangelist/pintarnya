@@ -1,8 +1,30 @@
 aid: pintarnya
 name: Pintarnya
-description: Pintarnya is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pintarnya is an Indonesian technology startup, launched in May 2022, that
+  operates an employment and financial-services super-app for the country's
+  blue-collar and entry-level workforce (education levels from elementary school
+  through bachelor's degree, "SD-S1"). The platform aggregates tens of thousands
+  of daily-updated job listings across 300+ Indonesian cities and pairs job
+  search with Cari Cuan side-income tasks, Siap Kerja skill-building video
+  courses, a CV builder, and an employer/recruiter posting product used by tens
+  of thousands of companies. Pintarnya reports more than 10 million registered
+  job seekers and is registered with Indonesia's Ministry of Labor (KEMNAKER).
+  It is a consumer web and mobile product; no public developer API, OpenAPI
+  description, or developer portal is published as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/pintarnya/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pintarnya.com/landing/cover.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +33,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Jobs
+- Employment
+- Recruitment
+- Financial Services
+- Indonesia
+- Marketplace
+- Human Resources
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/pintarnya-domain-security.yml
+- type: Website
+  url: https://pintarnya.com
+- type: About
+  url: https://pintarnya.com/landing/about-us/
+- type: Blog
+  url: https://pintarnya.com/blog
+- type: Support
+  url: https://pintarnya.com/landing/contact-us/
+- type: SignUp
+  url: https://pintarnya.com/signup
+- type: Login
+  url: https://pintarnya.com/login
+- type: TermsOfService
+  url: https://pintarnya.com/landing/termsandconditions/
+- type: PrivacyPolicy
+  url: https://pintarnya.com/landing/privacypolicy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

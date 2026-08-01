@@ -1,0 +1,14 @@
+{
+  "repo": "pintarnya",
+  "feeds": [
+    {
+      "source": "https://pintarnya.com/landing/about-us/",
+      "feed_url": "https://pintarnya.com/landing/about-us/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
