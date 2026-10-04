@@ -49,8 +49,8 @@ tags:
 - Company
 - Job
 - Employment
-- Recruitment
-- Financial-Services
+- Recruiting
+- Financial Services
 - Indonesia
 - Marketplace
 - Human Resources
@@ -63,6 +63,7 @@ tags_raw:
 - Indonesia
 - Marketplace
 - Human Resources
+- Financial-Services
 apis: []
 x-enrichment:
   date: '2026-07-20'
